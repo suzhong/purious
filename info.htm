@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script>
+    //alert(window.navigator.userAgent)
+    var width = window.screen.width,
+        fixedW = 640,
+        scale = width / fixedW,
+        meta = document.createElement('meta'),
+        metaAttr = {
+            name: 'viewport',
+            content: 'width=' + fixedW + ', initial-scale=' + scale + ', maximum-scale=' + scale + ''
+        };
+    for (var key in metaAttr) {
+        meta[key] = metaAttr[key];
+    }
+    document.head.appendChild(meta);
+  </script>
+  <meta http-equiv="x-ua-compatible" content="IE=edge;IE=6;IE=7;IE=8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="style/public.css">
+  <link rel="stylesheet" href="style/mbase.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/info.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+  <title>公司简介</title>
+  <script src="iconfont/iconfont.js"></script>
+  <!--[if lt IE 9]>　　　　
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>　　<![endif]-->
+</head>
+<body>
+  <!--header start-->
+  <!--header end-->
+  <!--content start-->
+  <section class="content">
+    <section class="infomation">
+      <h3 class="pTitle">Company profile</p>
+        <h2>公司简介</h2>
+        <h4 class="hTitle">一所与众不同的学校培养一个与众不同的你!</h4>
+        <h5>贵州韦德教育专注于成人教育和职业教育多年</h5>
+        <h5>旗下有两家教育机构，一家培训学校致力打造贵州继续教育第一品牌提高整个成人教育和自考教育的水平，为广大考生解决难题。</h5>
+        <h5>从事成人教育和自考辅导以来，凭借优秀的教师资源，过硬的教学质量，体贴的学院服务，超前的课程技术以及较高的通过率，在成人教育和自考辅导领域树立起了一面旗帜，成为行业领导力量。</h5>
+        <img src="./images/container/jianjie01.png" alt="" width="51" height="51"><img src="./images/container/jianjie02.png" alt="" width="51" height="51">
+    </section>
+    <section class="reason">
+      <h3 class="pTitle">Recommended reasons</h3>
+      <h2>推荐理由</h2>
+      <ul class="box-flex around">
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-xuexiao"></use>
+          </svg>
+          <h3 class="f-nor">名校学历</h3>
+          <h5>211工程，985院校</h5>
+          <h5>名校学历，任您拿</h5>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-mayishangchengiconshangchuan-"></use>
+          </svg>
+          <h3 class="f-nor">国家承认</h3>
+          <h5>学习网可查学籍</h5>
+          <h5>国家认可学历</h5>
+          <h5>终生受益</h5>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-jinpaifuwu"></use>
+          </svg>
+          <h3 class="f-nor">金牌服务</h3>
+          <h5>班主任全程跟踪服务</h5>
+          <h5>专业师资团队</h5>
+          <h5>9年诚信品牌</h5>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-linghuo"></use>
+          </svg>
+          <h3 class="f-nor">学制灵活</h3>
+          <h5>自考，远程</h5>
+          <h5>成考，函授</h5>
+          <h5>电大，学制灵活</h5>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-kuaisu"></use>
+          </svg>
+          <h3 class="f-nor">快速拿证</h3>
+          <h5>衔接考试,助学加分</h5>
+          <h5>1到1.5年快速拿证</h5>
+          <h5>班主任全程服务</h5>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-fengxian"></use>
+          </svg>
+          <h3 class="f-nor">零风险报考</h3>
+          <h5>学制灵活，没有时间负担</h5>
+          <h5>没有精力负担，考试没有负担</h5>
+        </li>
+      </ul>
+    </section>
+    <section class="history pos-r">
+      <h3 class="pTitle">Development history</h3>
+      <h2>发展历程</h2>
+      <h5 class="y1">公司旗下第一家职业教育培训机构在贵州成立</h5>
+      <h5 class="y2">贵州韦德教育踏入继续教育领域，成立贵州中诚致信教育致力打造贵州省继续教育第一品牌</h5>
+      <h5 class="y3">韦德机构完成从传统面授机构向互联网培训机构的转型</h5>
+      <h5 class="y4">贵州韦德教育荣获2009年“最受信赖职业教育品牌”</h5>
+      <h5 class="y5">贵州韦德教育荣获“最具影响力继续教育品牌”同年成立一家培训学校</h5>
+      <h5 class="y6">公司总部由贵州职业技术学院搬到贵州人民出版社4楼</h5>
+    </section>
+    <section class="qual">
+      <h3 class="pTitle">Company qualifications</h3>
+      <h2>公司资质</h2>
+      <ul class="box-flex around">
+        <li><img src="./images/container/company01.jpg" alt="" width="246" height="166"></li>
+        <li><img src="./images/container/company02.jpg" alt="" width="246" height="166"></li>
+        <li><img src="./images/container/company03.jpg" alt="" width="246" height="166"></li>
+        <li><img src="./images/container/company04.jpg" alt="" width="246" height="166"></li>
+        <li><img src="./images/container/company05.jpg" alt="" width="246" height="166"></li>
+        <li><img src="./images/container/company06.jpg" alt="" width="246" height="166"></li>
+      </ul>
+    </section>
+    <section class="char">
+      <h3 class="pTitle">Enterprise characteristics</h3>
+      <h2>企业特点</h2>
+      <ul class="box-flex around">
+        <li>
+          <h4>专业师资团队</h4>
+          <div class="char_bg">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tuandui"></use>
+            </svg>
+          </div>
+          <p>9年诚信品牌</p>
+          <p>专业的师资团队</p>
+          <p>权威的教学辅导</p>
+          <p>30000学员拿证</p>
+          <p>211,985,名校学历任你拿</p>
+        </li>
+        <li>
+          <h4>助学分期</h4>
+          <div class="char_bg">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fenqi"></use>
+            </svg>
+          </div>
+          <p>想要更快考取学历证书</p>
+          <p>衔接考试,学习方式灵活</p>
+          <p>助学加分,学习费用低</p>
+          <p>分期付款，拿证付款</p>
+          <p>1到1.5年快速拿证</p>
+        </li>
+        <li>
+          <h4>全程跟踪服务</h4>
+          <div class="char_bg">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fuwu"></use>
+            </svg>
+          </div>
+          <p>班主任全程跟踪服务</p>
+          <p>现场签订协议</p>
+          <p>保障学员权益</p>
+          <p>精准考点覆盖</p>
+          <p>高效通过考试</p>
+        </li>
+        <li>
+          <h4>零负担提升学历</h4>
+          <div class="char_bg">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tisheng"></use>
+            </svg>
+          </div>
+          <p>学制灵活，零风险拿证</p>
+          <p>时间，地域无限制</p>
+          <p>足不出户就可学习</p>
+          <p>考试零风险，精力无负担</p>
+          <p>轻松快速拿证</p>
+        </li>
+        <li>
+          <h4>学信网可查学籍</h4>
+          <div class="char_bg">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-chaxun"></use>
+            </svg>
+          </div>
+          <p>国家认可学历,教育部</p>
+          <p>学信网可查学籍</p>
+          <p>高薪,高职,事业单位必备利器</p>
+          <p>公务员,考研</p>
+          <p>留学不再是个梦</p>
+        </li>
+      </ul>
+    </section>
+    <section class="major">
+      <h3 class="pTitle">Hot majors</h3>
+      <h2>热门专业</h2>
+      <ul class="subject box-flex around">
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-gongzilicai"></use>
+          </svg>
+          <h3>经济学</h3>
+          <h4>金融</h4>
+          <h4>会计学</h4>
+          <h4>工商管理</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-tuandui1"></use>
+          </svg>
+          <h3>管理学</h3>
+          <h4>工程管理</h4>
+          <h4>行政管理</h4>
+          <h4>人力资源管理</h4>
+          <h4>农村经济管理</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-huaxue"></use>
+          </svg>
+          <h3>理工学</h3>
+          <h4>机电一体化</h4>
+          <h4>房屋建筑工程</h4>
+          <h4>建筑工程与技术</h4>
+          <h4>土木工程</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-biye"></use>
+          </svg>
+          <h3>教育学</h3>
+          <h4>教育学</h4>
+          <h4>学前教育</h4>
+          <h4>汉语言文学</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-yixue"></use>
+          </svg>
+          <h3>医学</h3>
+          <h4>护理学</h4>
+          <h4>中药学</h4>
+          <h4>临床医学</h4>
+          <h4>医学检验、药学</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-yishu"></use>
+          </svg>
+          <h3>艺术学</h3>
+          <h4>艺术设计</h4>
+          <h4>广告设计与制作</h4>
+          <h4>音乐教育</h4>
+          <h4>服装设计</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+      </ul>
+    </section>
+    <section class="colleges">
+      <h3 class="pTitle">Cooperative colleges</h3>
+      <h2>合作院校</h2>
+      <ul class="box-flex around">
+        <li>
+          <img src="./images/container/col01.png" alt="" width="96" height="96">
+          <h5>贵州大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col02.png" alt="" width="96" height="96">
+          <h5>贵州师范大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col03.png" alt="" width="96" height="96">
+          <h5>贵州民族大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col04.png" alt="" width="96" height="96">
+          <h5>贵州医科大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col05.png" alt="" width="96" height="96">
+          <h5>贵州职业技术学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col06.png" alt="" width="96" height="96">
+          <h5>湘潭大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col07.png" alt="" width="96" height="96">
+          <h5>四川理工大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col08.png" alt="" width="96" height="96">
+          <h5>中国地质大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col09.png" alt="" width="96" height="96">
+          <h5>贵州职业技术学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col10.png" alt="" width="96" height="96">
+          <h5>黔东南民族职业学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col11.png" alt="" width="96" height="96">
+          <h5>贵阳中医学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col12.png" alt="" width="96" height="96">
+          <h5>中国财经大学</h5>
+        </li>
+      </ul>
+      <a href="" title="">更多合作院校</a>
+    </section>
+  </section>
+    <!--content end -->
+    <!--footer start-->
+    <!--footer end-->
+    <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="./style/header.js"></script>
+</body>
+</html>

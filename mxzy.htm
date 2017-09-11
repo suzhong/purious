@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script>
+    //alert(window.navigator.userAgent)
+    var width = window.screen.width,
+      fixedW = 640,
+      scale = width / fixedW,
+      meta = document.createElement('meta'),
+      metaAttr = {
+        name: 'viewport',
+        content: 'width=' + fixedW + ', initial-scale=' + scale + ', maximum-scale=' + scale + ''
+      };
+    for (var key in metaAttr) {
+      meta[key] = metaAttr[key];
+    }
+    document.head.appendChild(meta);
+  </script>
+  <meta http-equiv="x-ua-compatible" content="IE=edge;IE=6;IE=7;IE=8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="style/public.css">
+  <link rel="stylesheet" href="style/mbase.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/mxzy.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+  <title>名校专业</title>
+  <script src="iconfont/iconfont.js"></script>
+  <!--[if lt IE 9]>　　　　
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>　　<![endif]-->
+</head>
+
+<body>
+  <!--header start-->
+  <!--header end-->
+  <!--content start-->
+  <section class="content">
+    <section class="colleges">
+      <h3 class="pTitle">Cooperative colleges</h3>
+      <h2>合作院校</h2>
+      <ul class="box-flex around">
+        <li>
+          <img src="./images/container/col01.png" alt="" width="96" height="96">
+          <h5>贵州大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col02.png" alt="" width="96" height="96">
+          <h5>贵州师范大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col03.png" alt="" width="96" height="96">
+          <h5>贵州民族大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col04.png" alt="" width="96" height="96">
+          <h5>贵州医科大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col05.png" alt="" width="96" height="96">
+          <h5>贵州职业技术学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col06.png" alt="" width="96" height="96">
+          <h5>湘潭大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col07.png" alt="" width="96" height="96">
+          <h5>四川理工大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col08.png" alt="" width="96" height="96">
+          <h5>中国地质大学</h5>
+        </li>
+        <li>
+          <img src="./images/container/col09.png" alt="" width="96" height="96">
+          <h5>贵州职业技术学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col10.png" alt="" width="96" height="96">
+          <h5>黔东南民族职业学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col11.png" alt="" width="96" height="96">
+          <h5>贵阳中医学院</h5>
+        </li>
+        <li>
+          <img src="./images/container/col12.png" alt="" width="96" height="96">
+          <h5>中国财经大学</h5>
+        </li>
+      </ul>
+      <a href="" title="">更多合作院校</a>
+    </section>
+    <section class="major">
+      <h3 class="pTitle">Hot majors</h3>
+      <h2>热门专业</h2>
+      <ul class="subject box-flex around">
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-gongzilicai"></use>
+          </svg>
+          <h3>经济学</h3>
+          <h4>金融</h4>
+          <h4>会计学</h4>
+          <h4>工商管理</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-tuandui1"></use>
+          </svg>
+          <h3>管理学</h3>
+          <h4>工程管理</h4>
+          <h4>行政管理</h4>
+          <h4>人力资源管理</h4>
+          <h4>农村经济管理</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-huaxue"></use>
+          </svg>
+          <h3>理工学</h3>
+          <h4>机电一体化</h4>
+          <h4>房屋建筑工程</h4>
+          <h4>建筑工程与技术</h4>
+          <h4>土木工程</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-biye"></use>
+          </svg>
+          <h3>教育学</h3>
+          <h4>教育学</h4>
+          <h4>学前教育</h4>
+          <h4>汉语言文学</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-yixue"></use>
+          </svg>
+          <h3>医学</h3>
+          <h4>护理学</h4>
+          <h4>中药学</h4>
+          <h4>临床医学</h4>
+          <h4>医学检验、药学</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-yishu"></use>
+          </svg>
+          <h3>艺术学</h3>
+          <h4>艺术设计</h4>
+          <h4>广告设计与制作</h4>
+          <h4>音乐教育</h4>
+          <h4>服装设计</h4>
+          <a href="" title="">更多专业</a>
+        </li>
+      </ul>
+    </section>
+    <section class="professional">
+      <h3 class="pTitle">Hot majors</h3>
+      <h2>热门专业</h2>
+      <ul class="box-flex around">
+        <li>
+          <img src="./images/container/pro01.png" alt="" width="186" height="107">
+          <h4><strong>建筑类</strong>职称首选</h4>
+          <h5>建筑学</h5>
+          <h5>计算机</h5>
+          <h5>土木工程</h5>
+          <h5>工程造价</h5>
+          <a href="" title=""></a>
+        </li>
+        <li>
+          <img src="./images/container/pro02.png" alt="" width="186" height="107">
+          <h4><strong>医生类</strong>职称首选</h4>
+          <h5>护理学</h5>
+          <h5>中药学</h5>
+          <h5>临床医学</h5>
+          <h5>医学检验</h5>
+          <a href="" title=""></a>
+        </li>
+        <li>
+          <img src="./images/container/pro03.png" alt="" width="186" height="107">
+          <h4><strong>公考类</strong>留学首选</h4>
+          <h5>管理学</h5>
+          <h5>艺术设计</h5>
+          <h5>汉语言文学</h5>
+          <h5>会计电算化</h5>
+          <a href="" title=""></a>
+        </li>
+        <li>
+          <img src="./images/container/pro01.png" alt="" width="186" height="107">
+          <h4><strong>升职</strong>加薪首选</h4>
+          <h5>会计学</h5>
+          <h5>服装设计</h5>
+          <h5>工程管理</h5>
+          <h5>行政管理</h5>
+          <a href="" title=""></a>
+        </li>
+        <li>
+          <img src="./images/container/pro01.png" alt="" width="186" height="107">
+          <h4><strong>名校</strong>专业首选</h4>
+          <h5>教育学</h5>
+          <h5>生物工程</h5>
+          <h5>土地资源管理</h5>
+          <h5>行政管理</h5>
+          <a href="" title=""></a>
+        </li>
+      </ul>
+    </section>
+  </section>
+  <!--content end -->
+  <!--footer start-->
+  <!--footer end-->
+  <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+  <script src="./style/header.js"></script>
+</body>
+
+</html>

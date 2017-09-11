@@ -1,0 +1,41 @@
+.content p {
+  font-size:24px;
+  color: #666;
+  padding-top:20px;
+}
+.content .t-l {
+  text-align: left;
+  margin-top:20px;
+}
+.content .t-l section{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.content h2 {
+  padding-top:10px;
+  height:65px;
+  letter-spacing:4px;
+  background: url("../images/container/info_bg.png") no-repeat bottom center;
+}
+.map {
+  height:440px;
+  margin-bottom:45px;
+}
+.map .api {
+  width:580px;
+  height:330px;
+  background: #e64041;
+  margin: 1.22222222rem auto 0;
+}
+.route h4 {
+  height:30px;
+  padding-left:40px;
+  background: url("../images/container/route.png") no-repeat;
+}
+.route .t-l p{
+  font-size:14px;
+  color: #000;
+}
+.register{
+  height:670px;
+}

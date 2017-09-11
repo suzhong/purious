@@ -1,0 +1,101 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dd {
+margin:0
+}
+h2,h4,h5{
+  font-weight:100;
+}
+body {
+    text-align: center;
+}
+ul,ol,dl {
+margin:0;
+padding:0;
+list-style:none
+}
+img {
+border:0;
+vertical-align:middle;
+}
+a {
+text-decoration:none;
+color:#000;
+color:inherit;
+outline:0
+}
+.clearfix:after {
+content:'';
+display:block;
+height:0;
+line-height:0;
+visibility:hidden;
+clear:both
+}
+.fl-l {
+float:left
+}
+.fl-r {
+float:right
+}
+.pos-r {
+position:relative
+}
+.pos-a {
+position:absolute
+}
+.pos-f {
+position:fixed
+}
+.dis-b {
+display:block
+}
+.dis-ib {
+display:inline-block
+}
+.dis-n {
+display:none
+}
+.overf-h {
+overflow:hidden
+}
+.c-0cf {
+color:#0cf
+}
+.c-ffzc02 {
+color:#ffac02
+}
+.c-fe1818 {
+color:#fe1818
+}
+.c-73007f {
+color:#73007f
+}
+.c-fff{
+  color:#fff;
+}
+/* 引入iconfont字体 */
+@font-face {
+font-family:"iconfont";
+src:url('../iconfont/iconfont.eot');
+src:url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */ url('../iconfont/iconfont.woff') format('woff'),url('../iconfont/iconfont.ttf') format('truetype'),url('../iconfont/iconfont.svg?#iconfont') format('svg');
+}
+.f-bold{
+font-weight:bold;
+}
+.f-nor{
+font-weight:100;
+}
+.box-flex{
+  display:flex;
+  flex-direction:row;
+	flex-wrap:wrap;
+}
+.around{
+	justify-content:space-around;
+}
+.between{
+	justify-content:space-between;
+}
+.center{
+	justify-content:center;
+} 

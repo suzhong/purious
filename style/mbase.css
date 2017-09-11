@@ -1,0 +1,279 @@
+﻿body{
+    font:14px/1.5 'Microsoft Yahei',sans-serif;
+}
+h2{
+    font-size:36px;
+}
+h3{
+    font-size:24px;
+}
+h4{
+    font-size:18px;
+}
+h5{
+    font-size:14px;
+}
+.down{
+    width:20px;
+    height:20px;
+    position:absolute;
+    background: #fff;
+}
+.ct{
+	color:#ff2728;
+}
+.footer{
+width:580px;
+margin:30px auto 0;
+height: 125px;
+border-top:1px solid #666;
+padding-top:10px;
+padding-bottom:10px;
+}
+.read {
+width: 100%;
+height:455px;
+margin-top:20px;
+}
+.read h2{
+background:url("../images/container/h_bg_m.png") no-repeat center bottom;
+padding-bottom:10px
+}
+.read>h5{
+padding:15px 0;
+}
+.read .contain li {
+width:160px;
+height:165px;
+}
+.read .contain li h5{
+padding-top:5px;
+}
+h5.mintitle{
+	padding:15px 0;
+}
+h3.black{
+	width:580px;
+	padding-bottom:15px;
+	margin:15px auto;
+	border-bottom:1px solid #000;
+}
+h3.black .down{
+	left: 282px;
+	bottom:-8px;
+}
+.social .problem li{
+	width:280px;
+	height:100px;
+}
+li.r{
+	border-right:1px solid #000;
+}
+li.tb{
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+.social .problem li h5{
+	width:132px;
+	float:left;
+	text-align:left;
+	font-size:12px;
+	margin:32px 2px;
+}
+.social .problem li img{
+	margin:7px;
+	float:left;
+}
+.social .need{
+	height:230px;
+}
+.social .need li{
+	position:relative;
+	width:182px;
+	height:168px;
+	margin-top:42px;
+	background:url("../images/container/need_bg_m.png") no-repeat center/cover;
+}
+.social .need li .circle{
+	position:absolute;
+	width:42px;
+	height:42px;
+	background:#e34040;
+	border-radius:50%;
+	top:-21px;
+	left:70px;
+}
+.social .need li .circle .icon{
+	width:24px;
+	height:26px;
+	padding-top:6px;
+}
+.social .need li h5{
+	margin:22px auto 5px;
+}
+.social .need li p{
+	font-size:12px;
+	padding:0 4px;
+}
+.social .need li .btn{
+	position: absolute;
+	width:90px;
+	height:18px;
+	line-height:18px;
+	background:#e34040;
+	color:#fff;
+	bottom:-8px;
+	left:45px;
+}
+.college .uniall li{
+	width:160px;
+	height: 150px;
+	margin-top:15px;
+}
+.college .uniall li h5{
+	margin-top:10px;
+}
+.college .fenlei li{
+	width:172px;
+	height: 292px;
+	border:3px solid #b0b0b0;
+	margin-top:25px;
+	padding-top:10px;
+}
+.college .fenlei li h4:first-of-type{
+	margin:10px auto;
+}
+.college .fenlei li:nth-child(4){
+	margin-left:50px;
+}
+.college .fenlei li:nth-child(5){
+	margin-right:50px;
+}
+.subject li{
+  position:relative;
+  width:280px;
+  height: 306px;
+  margin:10px 0;
+  background:#d9d9d9;
+}
+.subject li .icon{
+  width:85px;
+  height:85px;
+}
+.subject li a{
+  position:absolute;
+  display: block;
+  width:148px;
+  height: 28px;
+  line-height: 28px;
+  border:1px solid #666;
+  bottom:25px;
+  left:63px;
+}
+.truth{
+	height:440px;
+}
+/*----------------------register start--------------------*/
+.register {
+  background: #d8d8d8;
+  height:610px;
+}
+.register form ul {
+  width:428px;
+  height:465px;
+  margin:30px auto 0;
+}
+.register form ul li {
+  margin-bottom:20px;
+}
+.register form ul li strong {
+  font-size:20px;
+  font-weight: 100;
+}
+.register form ul li input {
+  width:360px;
+  height:40px;
+  margin: 0 10px;
+  font-size:24px;
+}
+.register form ul li textarea {
+  resize: none;
+  width:360px;
+  height:130px;
+  font-size:24px;
+}
+.register form ul li input.subbtn {
+  width:176px;
+  height:40px;
+  line-height:40px;
+  background: #666;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px #444;
+  color: #fff;
+  letter-spacing:36px;
+  padding-left: 39px;
+}
+.pTitle{
+  color:#666;
+  font-weight:100;
+  padding-top:15px;
+}
+.colleges ul li{
+  width:160px;
+  height:130px;
+  margin-top:20px;
+}
+.colleges ul li h5{
+  padding-top:10px;
+}
+.colleges a{
+  display:block;
+  width:248px;
+  height:36px;
+  line-height:36px;
+  border:1px solid #666;
+  border-radius:10px;
+  margin:15px auto;
+}
+.list{
+  width: 100%;
+}
+.list li {
+  position: relative;
+  height: 144px;
+  border-bottom: 1px solid #666;
+}
+.list li img {
+  position: absolute;
+  top:12px;
+  left:10px;
+}
+.list li .text {
+  text-align: left;
+  width:425px;
+  height:90px;
+  top:12px;
+  right:10px;
+  letter-spacing:2px;
+}
+.list li .text p {
+  padding-top:3px;
+}
+.list li .text strong.date {
+  padding: 0 20px;
+}
+.page {
+  margin-top:30px;
+}
+.page a {
+  margin: 0 9px;
+  height: 20px;
+  border: 1px solid #666;
+  padding: 1px 7px;
+}
+.c-a{
+  color:#ff6700;
+  padding:0.2rem 0;
+}

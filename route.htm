@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    //alert(window.navigator.userAgent)
+    var width = window.screen.width,
+      fixedW = 640,
+      scale = width / fixedW,
+      meta = document.createElement('meta'),
+      metaAttr = {
+        name: 'viewport',
+        content: 'width=' + fixedW + ', initial-scale=' + scale + ', maximum-scale=' + scale + ''
+      };
+    for (var key in metaAttr) {
+      meta[key] = metaAttr[key];
+    }
+    document.head.appendChild(meta);
+  </script>
+  <meta http-equiv="x-ua-compatible" content="IE=edge;IE=6;IE=7;IE=8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="style/public.css">
+  <link rel="stylesheet" href="style/mbase.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/route.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+  <title>来校路线</title>
+  <script src="iconfont/iconfont.js"></script>
+  <!--[if lt IE 9]>　　　　
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>　　<![endif]-->
+</head>
+
+<body>
+  <!--header start-->
+  <!--header end-->
+  <!--content start-->
+  <section class="content">
+    <section class="map">
+      <p>School map</p>
+      <h2>学校地图</h2>
+      <section class="api">百度地图api</section>
+    </section>
+    <section class="route">
+      <p>School route</p>
+      <h2>来校路线</h2>
+      <section class="t-l">
+        <h3>贵阳北站到贵州韦德教育</h3>
+        <section>
+          <h4>66路</h4>
+          <p>贵阳北站—步行（522米）—贵阳北站（上车）—66路6站—北京路（下车）—步行（380米）—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>K50路/K50路大站快车</h4>
+          <p>贵阳北站—步行（886米）—甲秀北路（上车）—K50路/K50路大站快车—威清路口（下车）—步行（1.3千米）— 贵州人民出版社</p>
+        </section>
+        <section>
+          <h4>K56路/K56路大站快车</h4>
+          <p>贵阳北站—步行（1.2千米）—贵阳北站（上车）—K56路/K56路大站快车—贵州医科大学（下车）—步行（476米）—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>B2路→63路</h4>
+          <p>贵阳北站—步行（1.1千米）—贵阳北站（上车）—B2路—黔灵村站（下车）—步行（79米）—黔灵村（上车）63路4站— 广门（下车）—步行（224米）—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>B2路→55路/15路</h4>
+          <p>贵阳北站—步行（1.1千米）—贵阳北站（上车）—B2路—黔灵村站（下车）—步行（79米）—黔灵村（上车）63路4站— 六广门（下车）—步行（224米）—贵州韦德教育</p>
+        </section>
+      </section>
+      <section class="t-l">
+        <h3>贵阳龙洞堡机场到贵州韦德教育</h3>
+        <section>
+          <h4>机场巴士贵阳北站专线</h4>
+          <p>贵阳龙洞堡国际机场—步行( 746米) — 龙洞堡机场(上车) — 机场巴士贵阳北站专线3站 — 贵州医科大学(下车) — 步行 (633米)—贵州人民出版社</p>
+        </section>
+        <section>
+          <h4>机场巴士贵阳北站专线→7路/39路/19路</h4>
+          <p>贵阳龙洞堡国际机场—步行(746米)—龙洞堡机场站(上车)—机场巴士贵阳北站专线 3站—贵阳医科大学(下车) — 贵阳医科大学(上车)—7路/39路/19路 —六广门(下车 )—步行 (212米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>机场巴士市区线→37路</h4>
+          <p>贵阳龙洞堡国际机场—步行(722米)—贵阳龙洞堡国际机场T2航站楼(上车)—机场巴士市区专线 —市南路口(下车) — 步行（107米）—油炸街口（上车）—37路 10站 —六广门(下车 )—步行 (502米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>机场巴士市区线→8路</h4>
+          <p>贵阳龙洞堡国际机场—步行(722米)—贵阳龙洞堡国际机场T2航站楼(上车)—机场巴士市区专线2站 —纪念塔(下车) — 步行（237米）—纪念塔（上车）—8路 5站—六广门(下车 )—步行 (502米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>机场巴士市区线→1路</h4>
+          <p>贵阳龙洞堡国际机场—步行(722米)—贵阳龙洞堡国际机场T2航站楼(上车)—机场巴士市区专线4站 —贵阳火车站(下车) — 火车站（上车）—1路 8站—北京路(下车 )—步行 (376米)—贵州韦德教育</p>
+        </section>
+      </section>
+      <section class="t-l">
+        <h3>贵阳花果园到贵州韦德教育</h3>
+        <section>
+          <h4>7路/19路</h4>
+          <p>花果园站（上车）7路(或 19路 )—六广门站（下车） —步行270米—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>33路</h4>
+          <p>花果园步行（10米）— 花果园站（上车）33路（6站）— 博物馆站(下车)—步行(470米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>248路</h4>
+          <p>花果园步行（10米）—花果园站（上车）—248路/7站—贵阳医学院站（下车）—步行（476米）—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>39路</h4>
+          <p>花果园步行(360米)—解放桥站(上车)—39路/7站—六广门站(下车) — 步行（280米）—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>22路</h4>
+          <p>花果园—步行(380米)—解放桥站(上车)22路/10站—沙河街站(下车) — 步行（250米）—贵州韦德教育</p>
+        </section>
+      </section>
+      <section class="t-l">
+        <h3>贵阳火车站到贵州韦德教育</h3>
+        <section>
+          <h4>1路环线</h4>
+          <p>火车站（上车）1路环线—六广门站（下车） —步行270米—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>24路</h4>
+          <p>火车站（上车）24路— 沙河街站(下车)—步行(270米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>63路</h4>
+          <p>火车站（上车）63路— 六广门站(下车)—步行(270米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>20路</h4>
+          <p>火车站（上车）20路— 云岩广场站(下车)—步行(590米)—贵州韦德教育</p>
+        </section>
+        <section>
+          <h4>39路</h4>
+          <p>火车站（步行910米）—体育馆站（上车）— 六广门站(下车)—步行(270米)—贵州韦德教育</p>
+        </section>
+      </section>
+    </section>
+    <section class="register">
+      <p>Online registration</p>
+      <h2>在线报名</h2>
+      <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <ul>
+          <li><strong class="fl-l">姓名</strong><input type="text" name='xm' id='xm'></li>
+          <li><strong class="fl-l">学历</strong><input type="text" name='xl' id='xl'></li>
+          <li><strong class="fl-l">电话</strong><input type="text" name='dh' id='dh'></li>
+          <li><strong class="fl-l">专业</strong><input type="text" name='zy' id='zy'></li>
+          <li><strong class="fl-l">留言</strong><textarea name='ly' id='ly' name="" id="words"></textarea></li>
+          <li><input type="hidden" name="dede_fields" value="xm,text;xl,text;dh,text;zy,text;ly,multitext" /></li>
+          <li><input type="hidden" name="dede_fieldshash" value="ad98c5377062a82c43ec94fb394935c6" /></li>
+          <li><input type="submit" name="submit" value="提交" class='subbtn' /></li>
+        </ul>
+      </form>
+    </section>
+  </section>
+  <!--content end -->
+  <!--footer start-->
+  <!--footer end-->
+  <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+  <script src="./style/header.js"></script>
+</body>
+
+</html>

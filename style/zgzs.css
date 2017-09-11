@@ -1,0 +1,94 @@
+.content h2{
+  padding:10px 0 15px;
+  letter-spacing:4px;
+  background: url("../images/container/info_bg.png") no-repeat bottom center;
+}
+.arch .condition{
+  text-align:left;
+  color:#666;
+  width:586px;
+  margin:0 auto;
+}
+.arch .condition .img{
+  text-align:center;
+  margin-top:20px;
+}
+.arch .condition .txt h3{
+  margin-bottom:15px;
+}
+.arch .condition .txt a{
+  width:248px;
+  height: 38px;
+  font-size:18px;
+  border:1px solid #666;
+  border-radius:10px;
+  display: block;
+  line-height:38px;
+  text-align:center;
+  margin:15px auto;
+}
+.oper .sixteen li{
+  width:160px;
+}
+.oper .sixteen li .icon{
+  width:110px;
+  height:110px;
+}
+.oper .message li{
+  width:273px;
+  margin-top:20px;
+}
+.oper .message li .t-l{
+  text-align:left;
+  height: 168px;
+  border:1px solid #666;
+}
+.build ul li{
+  width:220px;
+  height: 250px;
+  border:1px solid #666;
+  margin:15px 0;
+}
+.build ul li .icon{
+  width:92px;
+  height:92px;
+  border:3px solid #666;
+  border-radius:50%;
+  margin:15px auto;
+}
+.build ul li h4{
+  width:175px;
+  height:26px;
+  border: 1px solid #666;
+  border-radius:10px;
+  margin:25px auto 0;
+}
+.mechanic ul li{
+  width:160px;
+  margin-top:20px;
+}
+.mechanic ul li .icon{
+  width:90px;
+  height:90px;
+  border:1px solid #666;
+  border-radius:50%;
+}
+.medical ul li{
+  width:195px;
+  height:188px;
+  border:1px solid #666;
+  margin-top:20px;
+}
+.medical ul li .icon{
+  width:83px;
+  height: 83px;
+  border:3px solid #666;
+  border-radius:50%;
+  margin:15px auto;
+}
+.medical ul li h3{
+  width:170px;
+  padding:15px 0;
+  border-top:1px solid #666;
+  margin:0 auto;
+}

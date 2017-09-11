@@ -1,0 +1,41 @@
+.professional ul li {
+  position:relative;
+  width:186px;
+  height:224px;
+  border:2px solid #898989;
+  color: #757575;
+  margin:20px 0;
+}
+.professional ul li:nth-child(4) {
+  margin-left:70px;
+}
+.professional ul li:nth-child(5) {
+  margin-right:70px;
+}
+.professional ul li h4{
+  width:176px;
+  background: none;
+  margin: 0 auto;
+  border-bottom:1px solid #757575;
+}
+.professional ul li h4 strong {
+  color: #fa963d;
+  padding: 0 9px;
+}
+.professional ul li a {
+  position: absolute;
+  display: block;
+  width:43px;
+  height:41px;
+  bottom:-23px;
+  left:73px;
+  background: url("../images/container/more_m.png") no-repeat;
+  background-size:43px 41px;
+}
+.professional ul li h5 {
+  font-weight: 100;
+  width:93px;
+  height:20px;
+  float: left;
+  margin:10px 0;
+}

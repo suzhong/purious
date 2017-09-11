@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <script>//alert(window.navigator.userAgent)
+      var width = window.screen.width,
+      fixedW = 640,
+      scale = width / fixedW,
+      meta = document.createElement('meta'),
+      metaAttr = {
+        name: 'viewport',
+        content: 'width=' + fixedW + ', initial-scale=' + scale + ', maximum-scale=' + scale + ''
+      };
+      for (var key in metaAttr) {
+        meta[key] = metaAttr[key];
+      }
+      document.head.appendChild(meta);</script>
+    <meta http-equiv="x-ua-compatible" content="IE=edge;IE=6;IE=7;IE=8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style/public.css">
+    <link rel="stylesheet" href="style/mbase.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <title>移动首页</title>
+    <script src="iconfont/iconfont.js"></script>
+    <!--[if lt IE 9]>　　　　
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>　　<![endif]-->
+    </head>
+  <body>
+    <!--header start-->
+    <header>
+      <!--title start-->
+      <section class="title clearfix">
+        <h1 class="logo fl-l">
+          <a href=""><img src="images/header/logo.png" height="38" width="175" /></a>
+        </h1>
+        <p class="sen fl-l">让学习像呼吸一样自然中国继续教育领导品牌</p>
+        <div class="info fl-r">
+          <p class="first">全国咨询热线</p>
+          <p class="second">400-809-7838</p>
+        </div>
+      </section>
+      <!--title end-->
+      <!--banner start-->
+      <section class="banner swiper-container" id="banner">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href=""><img alt="" src="images/header/banner01_m.png" width="640" height="200" /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href=""><img alt="" src="images/header/banner01_m.png" width="640" height="200" /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href=""><img alt="" src="images/header/banner01_m.png" width="640" height="200" /></a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </section>
+      <!--banner end-->
+      <!--nav start-->
+      <nav>
+        <ul>
+          <li><h4><a href="#" title="">自考学历</a></h4></li>
+          <li><h4><a href="#" title="">远程学历</a></h4></li>
+          <li><h4><a href="#" title="">函授学历</a></h4></li>
+          <li><h4><a href="#" title="">成考学历</a></h4></li>
+          <li><h4><a href="#" title="">资格证书</a></h4></li>
+          <li><h4><a href="#" title="">名校专业</a></h4></li>
+          <li><h4><a href="#" title="">报考优势</a></h4></li>
+          <li><h4><a href="#" title="">报考指南</a></h4></li>
+          <li><h4><a href="#" title="">韦德教育</a></h4></li>
+          <li><h4><a href="#" title="">来校路线</a></h4></li>
+        </ul>
+      </nav>
+      <!--nav end-->
+      <!-- advantage start -->
+      <ul class="advantage ">
+        <li><a href="" title=""><h2><img src="./images/header/advantage01.png" alt=""></h2><strong class="c-0cf">学信网可查，国家认可学历，终身受益</strong></a></li>
+        <li><a href="" title=""><h2><img src="./images/header/advantage02.png" alt=""></h2><strong class="c-ffzc02">衔接考试，助学加分，1到1.5年快速拿证</strong></a></li>
+        <li><a href="" title=""><h2><img src="./images/header/advantage03.png" alt=""></h2><strong class="c-fe1818">学制灵活，无时间负担，考试无负担，无精力负担</strong></a></li>
+        <li><a href="" title=""><h2><img src="./images/header/advantage04.png" alt=""></h2><strong class="c-73007f">全程跟踪服务，专业师资团队，9年诚信品牌</strong></a></li>
+      </ul>
+      <!-- advantage end -->
+    </header>
+    <!--header end-->
+    <!--container start-->
+    <section class="container">
+      <section class="recommend">
+        <h2>精品推荐</h2>
+        <h5 class="mintitle">一所与众不同的学校培养一个与众不同的你！</h5>
+        <ul class="entrance around box-flex">
+          <li>
+            <div class="enIcon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-diannao"></use>
+              </svg>
+            </div>
+            <div class="contain">
+              <h3>初中学历入口</h3>
+              <p>Junior school entrance</p>
+              <h4 class="first">
+                <a href="" title="">初中升专科</a></h4>
+              <h4>
+                <a href="" title="">初中升本科</a></h4>
+            </div>
+          </li>
+          <li>
+            <div class="enIcon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-xianweijing"></use>
+              </svg>
+            </div>
+            <div class="contain">
+              <h3>高中学历入口</h3>
+              <p>High school entrance</p>
+              <h4 class="first">
+                <a href="" title="">高中升专科</a></h4>
+              <h4>
+                <a href="" title="">高中升本科</a></h4>
+            </div>
+          </li>
+          <li>
+            <div class="enIcon">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-xueshimao"></use>
+              </svg>
+            </div>
+            <div class="contain">
+              <h3>专科学历入口</h3>
+              <p>Specialty entrance</p>
+              <h4 class="first">
+                <a href="" title="">专科升本科</a></h4>
+              <h4>
+                <a href="" title="">专科升研究生</a></h4>
+            </div>
+          </li>
+        </ul>
+        <h3 class="pos-r f-nor black">掌握一技之长　成为人生赢家<svg class="down" aria-hidden="true"><use xlink:href="#icon-iconset0421"></use></svg></h3>
+        <h5>韦德教育：技能+学历，成功快人一步！</h5>
+        <ul class="classify around box-flex">
+          <li>
+            <svg class="icon c1" aria-hidden="true">
+              <use xlink:href="#icon-iconfontyisheng"></use>
+            </svg>
+            <h3>医师类</h3>
+            <p>Physicians</p>
+            <h4 class="mart">护工</h4>
+            <h4 class="mart">执业医师</h4>
+            <h4 class="mart">护士资格证</h4></li>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-yggl"></use>
+            </svg>
+            <h3>建筑八大员</h3>
+            <p>Architects</p>
+            <h4>施工员　质量员</h4>
+            <h4>材料员　资料员</h4>
+            <h4>劳务员　标准员</h4>
+            <h4>机械员　安全员</h4></li>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-jiaoshizhuce"></use>
+            </svg>
+            <h3>建造师类</h3>
+            <p>Constructors</p>
+            <h4 class="mart">一级建造师</h4>
+            <h4 class="mart">二级建造师</h4>
+            <h4 class="mart">注册造价工程师</h4></li>
+        </ul>
+      </section>
+      <!--recommend end -->
+      <section class="social">
+        <h2>社会现状</h2>
+        <h5 class="mintitle">还好，挺好，其实你可以做到更好！韦德教育，让你看到自己也是精英！</h5>
+        <ul class="problem box-flex center">
+          <li class="r">
+            <h5>想要高薪高职，可惜学历不够？</h5>
+            <img src="./images/container/problem01_m.jpg" width="130" height="86" alt="" /></li>
+          <li>
+            <img src="./images/container/problem02_m.jpg" width="130" height="86" alt="">
+            <h5>想出国留学，考公务员？学历不够？</h5></li>
+          <li class="tb r">
+            <h5>学历太低,工作生活觉得低人一等？</h5>
+            <img src="./images/container/problem03_m.jpg" width="130" height="86" alt=""></li>
+          <li class="tb">
+            <img src="./images/container/problem04_m.jpg" width="130" height="86" alt="">
+            <h5>想考注册类证书？需要学信网认证证书才能考？</h5></li>
+          <li class="r">
+            <h5>工作之余需要更高的文凭，升职加薪？</h5>
+            <img src="./images/container/problem05_m.jpg" width="130" height="86" alt=""></li>
+          <li>
+            <img src="./images/container/problem06_m.jpg" width="130" height="86" alt="">
+            <h5>现有的专业不满意想换个自己满意的专业？</h5></li>
+        </ul>
+        <h3 class="pos-r f-nor black">学历不代表能力！没有却处处受限！<svg class="down" aria-hidden="true"><use xlink:href="#icon-iconset0421"></use></svg></h3>
+        <h5>学历提升,就在这一刻！</h5>
+        <ul class="need box-flex around">
+          <li>
+            <div class="circle">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fachuzhenduanqingqiu"></use>
+              </svg>
+            </div>
+            <h5>现代社会发展的要求</h5>
+            <p class="p1">95%以上的高职高薪都是本科以上学历</p>
+            <p>人口增多，就业压力也越来越大，现代社会对人才的素质和学历的需求也越来越高</p>
+            <div class="btn"><a href="" title="">点击查看</a></div>
+          </li>
+          <li>
+            <div class="circle">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-yuangongzhanghao"></use>
+              </svg>
+            </div>
+            <h5>事业单位和公务员的需求</h5>
+            <p class="p1">“本科”是事业单位和公务员的敲门砖。</p>
+            <p>现在年轻人对企、事业编制有很强的前瞻认识但苦于只欠一个“本科”毕业证。</p>
+            <div class="btn"><a href="" title="">点击查看</a></div>
+          </li>
+          <li>
+            <div class="circle">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-lianjie"></use>
+              </svg>
+            </div>
+            <h5>名企，高职和高薪的需求</h5>
+            <p class="p1">名企：25%的研究生及以上学员工； 73%的本科学历员工；2%的本科以下学历员工</p>
+            <p>你还在用2%的几率，给你的人生开玩笑吗？</p>
+            <div class="btn"><a href="" title="">点击查看</a></div>
+          </li>
+        </ul>
+      </section>
+      <!-- social end-->
+      <section class="info">
+        <h2>韦德教育</h2>
+        <h5 class="mintitle">一所与众不同的学校培养一个与众不同的你！韦德教育！</h5>
+        <section class="brief">
+            <p>贵州韦德教育专注于成人教育和职业教育多年，旗下有两家教育机构，一家培训学校致力打造贵州继续教育第一品牌。提高整个成人教育和自考教育的水平，为广大考生解决难题。</p>
+            <p>中心总部归于贵阳市云岩区中华北路289号贵州人民出版社内，从事成人教育和自考辅导以来，凭借优秀的教师资源，过硬的教学质量，体贴的学院服务，超前的课程技术以及较高的通过率，在成人教育和自考辅导领域树立起了一面旗帜，成为行业领导力量。</p>
+            <p>学校秉承务实的工作作风，以学员为中心，以通过考试为目标，以科学辅导为前提，将始终保持行业领先的姿态。</p>
+        </section>
+        <ul class="goodness box-flex around">
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-tuandui"></use>
+            </svg>
+            <div class="text">
+              <h5>专业师资团队</h5>
+              <p>9年诚信品牌。专业的师资团队</p>
+              <p>权威的教学辅导。30000学员成功拿证</p>
+              <p>211，985，名校学历，任你拿。</p>
+              <a href="" title="">查看详情>></a>
+              </div>            
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-icon121"></use>
+            </svg>
+            <div class="text">
+              <h5>全程跟踪服务</h5>
+              <p>班主任全程跟踪服务</p>
+              <p>现场签订协议，保障学员权益</p>
+              <p>精准考点覆盖，高效通过考试</p>
+              <a href="" title="">查看详情>></a>
+          </div>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-tishengxiaoshuai"></use>
+            </svg>
+            <div class="text">
+              <h5>零负担提升学历</h5>
+              <p>学制灵活，零风险拿证</p>
+              <p>时间，地域无限制，足不出户就可学习</p>
+              <p>考试零风险，无负担，轻松快速拿证</p>
+              <a href="" title="">查看详情>></a>
+          </div>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-chaxun1"></use>
+            </svg>
+            <div class="text">
+              <h5>学信网可查学籍</h5>
+              <p>国家认可学历</p>
+              <p>教育部，学信网可查学籍</p>
+              <p>高薪高职，事业单位必备利器</p>
+              <a href="" title="">查看详情>></a>
+            </div>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-fenqi"></use>
+            </svg>
+            <div class="text">
+              <h5>助学分期</h5>
+              <p>衔接考试，助学加分</p>
+              <p>分期付款，拿证付款</p>
+              <p>学习费用低，学习方式灵活</p>
+              <a href="" title="">查看详情>></a>
+            </div>
+          </li>
+          <li>
+            <a href="" title="">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-gengduo"></use>
+              </svg>
+              <p class="pos-a">查看更多</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!--info end-->
+      <section class="college">
+        <h2>名校专业</h2>
+        <h5 class="mintitle">臻与极致的专业细分，只为给您想要的！韦德改变命运，学历成就未来！</h5>
+        <ul class="uniall box-flex ">
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州职业技术大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+          <li>
+            <img src="./images/container/college01_m.png" alt="">
+            <h5>贵州民族大学</h5></li>
+        </ul>
+        <a class="dis-b cbtn1" href="" title=""><img src="./images/container/cBtn01_m.png" alt="" width="314" height="25"></a>
+        <ul class="fenlei box-flex around">
+          <li>
+            <img src="./images/container/choice01_m.jpg" alt="" width="114" height="114">
+            <h4><strong class="ct">建筑</strong>&nbsp;类职称首选</h4>
+            <h4>建筑学</h4>
+            <h4>计算机</h4>
+            <h4>土木工程</h4>
+            <h4>工程造价</h4></li>
+          <li>
+            <img src="./images/container/choice01_m.jpg" alt="" width="114" height="114">
+            <h4><strong class="ct">医生</strong>&nbsp;类职称首选</h4>
+            <h4>护理学</h4>
+            <h4>中药学</h4>
+            <h4>临床医学</h4>
+            <h4>医学检验</h4></li>
+          <li>
+            <img src="./images/container/choice01_m.jpg" alt="" width="114" height="114">
+            <h4><strong class="ct">公考</strong>&nbsp;留学首选</h4>
+            <h4>管理学</h4>
+            <h4>艺术设计</h4>
+            <h4>汉语言文学</h4>
+            <h4>会计电算化</h4></li>
+          <li>
+            <img src="./images/container/choice01_m.jpg" alt="" width="114" height="114">
+            <h4><strong class="ct">升职</strong>&nbsp;加薪首选</h4>
+            <h4>会计学</h4>
+            <h4>服装设计</h4>
+            <h4>工程管理</h4>
+            <h4>行政管理</h4></li>
+          <li>
+            <img src="./images/container/choice01_m.jpg" alt="" width="114" height="114">
+            <h4><strong class="ct">名校</strong>&nbsp;专业首选</h4>
+            <h4>教育学</h4>
+            <h4>土地资源管理</h4>
+            <h4>人力资源管理</h4>
+            <h4>行政管理法学</h4></li>
+        </ul>
+        <a class="dis-b cbtn2" href="" title=""><img src="./images/container/cBtn02_m.png" alt="" width="492" height="25"></a>
+        <ul class="xueke box-flex around">
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>经济学</h4>
+            <h5>金融</h5>
+            <h5>会计学</h5>
+            <h5>工商管理</h5>
+            <h5>经济管理</h5>
+            <a href="" title=""></a>
+          </li>
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>管理学</h4>
+            <h5>行政管理</h5>
+            <h5>金融管理</h5>
+            <h5>工程管理</h5>
+            <h5>旅游管理</h5>
+            <a href="" title=""></a>
+          </li>
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>理工学</h4>
+            <h5>土木工程</h5>
+            <h5>生物工程</h5>
+            <h5>工程造价</h5>
+            <h5>安全管理</h5>
+            <a href="" title=""></a>
+          </li>
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>经济学</h4>
+            <h5>土木工程</h5>
+            <h5>生物工程</h5>
+            <h5>工程造价</h5>
+            <h5>安全管理</h5>
+            <a href="" title=""></a>
+          </li>
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>经济学</h4>
+            <h5>土木工程</h5>
+            <h5>生物工程</h5>
+            <h5>工程造价</h5>
+            <h5>安全管理</h5>
+            <a href="" title=""></a>
+          </li>
+          <li>
+            <img src="./images/container/xueke01_m.jpg" alt="">
+            <h4>经济学</h4>
+            <h5>土木工程</h5>
+            <h5>生物工程</h5>
+            <h5>工程造价</h5>
+            <h5>安全管理</h5>
+            <a href="" title=""></a>
+          </li>
+        </ul>
+      </section>
+      <!--college end-->
+      <section class="truth">
+        <h2>培训实况</h2>
+        <h5 class="mintitle">边学习边交友，学习更有趣！韦德教育，有你的舞台更精彩！</h5>
+        <img src="./images/container/photo01_m.jpg" alt="" width="609" height="91">
+        <img src="./images/container/photo02_m.jpg" alt="" width="609" height="91">
+        <img src="./images/container/photo03_m.jpg" alt="" width="609" height="91">
+      </section>
+      <!--truth end-->
+      <section class="guide clearfix">
+          <h2>报考指南</h2>
+          <h5 class="mintitle">为你所想尽我所能！一个比家更温暖的地方,韦德教育！</h5>
+          <ul class="list fl-l">
+            <li>
+              <div class="title">
+                <h3>报考动态</h3>
+                <h5>Enrollment dynamics</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <div class="title">
+                <h3>最新政策</h3>
+                <h5>Latest policy</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <div class="title">
+                <h3>百问百答</h3>
+                <h5>Baiwenbaida</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <div class="title">
+                <h3>资格证书</h3>
+                <h5>Qualification</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <div class="title">
+                <h3>考试真题</h3>
+                <h5>Exam</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <div class="title">
+                <h3>学校动态</h3>
+                <h5>School dynamics</h5>
+                <a href="" title="">更多+</a>
+              </div>
+              <ol>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <img class="fl-l" src="./images/container/list_m.jpg" alt="" width="150" height="100">
+                  <div class="head fl-l">
+                    <h4>贵州韦德教育2018年报名计划</h4>
+                    <h5>贵州韦德教育2018年报名计划贵州韦德教育2018年报名计划贵州韦德教育</h5>
+                    <a href="" title="">查看详情</a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+          </ul>
+      </section>
+      <!--guide end--></section>
+    <!--container end-->
+    <!--footer start-->
+    <section class="footer">
+      <h5>贵阳韦德教育集团助您圆梦！</h5>
+      <h5>免费咨询：400-809-7838</h5>
+      <h5>免费资料：（QQ）3002727038 （微信）13368509047</h5>
+      <h5>官方网站：http://www.gywdjy.com</h5>
+      <h5>学校地址：贵州省-贵阳市-云岩区-中华北路-贵州人民出版社大厦四楼整层。</h5>
+      <h5>贵州韦德教育（版权所有，仿冒必究）备案号：黔ICP备16001441号</h5>
+    </section>
+    <!--footer end-->    
+    <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="./style/header.js"></script>
+</body>
+
+</html>

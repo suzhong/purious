@@ -1,0 +1,94 @@
+.content{
+  width:640px;
+}
+h2{
+  padding:16px 0;
+  background:url("../images/container/info_bg.png") no-repeat center bottom;
+}
+.hTitle{
+  margin:18px auto;
+}
+.infomation h5{
+  line-height: 25px;
+}
+.infomation img{
+  padding:10px 15px;
+}
+.reason ul li{
+  width:225px;
+  height: 225px;
+  background:#666;
+  color:#fff;
+  margin:15px 0;
+  border-radius:50%;
+}
+.reason ul li .icon{
+  width:80px;
+  height:80px;
+  margin-top:18px;
+}
+.history{
+  height:340px;
+  margin-bottom:10px;
+  background:url("../images/container/history_m.png") no-repeat left bottom;
+}
+.history h5{
+  width:180px;
+  font-size:12px;
+  position: absolute;
+  text-align:left;
+}
+.history h5.y1,.history h5.y3{
+  top:185px;
+}
+.history h5.y4,.history h5.y6{
+  bottom:30px;
+}
+.history h5.y1{
+  left:20px;
+}
+.history h5.y2{
+  top:175px;
+  left:230px;
+}
+.history h5.y3{
+  right:20px;
+}
+.history h5.y4{
+  left:75px;
+}
+.history h5.y5{
+  right:185px;
+  bottom:20px;
+}
+.history h5.y6{
+  width:165px;
+  right:0px;
+}
+.qual ul li{
+  width:246px;
+  height:166px;
+  margin:20px 0;
+}
+.char ul li{
+  width:178px;
+  height:280px;
+  background:#d9d9d9;
+  margin:15px 0;
+  padding-top:30px;
+}
+.char ul li .char_bg{
+  width:72px;
+  height: 72px;
+  background: #fff;
+  border-radius:50%;
+  margin:10px auto;
+}
+.char ul li .char_bg .icon{
+  width:54px;
+  height:46px;
+  margin-top:10px;
+}
+.char ul li p{
+  margin-bottom:5px;
+}

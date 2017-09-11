@@ -1,0 +1,96 @@
+header {
+  width: 640px;
+  margin-top: 10px;
+}
+header .title {
+  height: 48px;
+}
+header .title .logo {
+  margin-left: 13px;
+  width: 175px;
+  height: 38px;
+}
+header .title .logo h1 {
+  font-size: 22px;
+  color: #c82127;
+  text-indent: 55px;
+  letter-spacing: 5px;
+}
+header .title .sen {
+  width: 120px;
+  font-size: 10px;
+  padding: 3px 0 0 8px;
+}
+header .title .info {
+  margin-right: 40px;
+  width: 135px;
+}
+header .title .info p.first {
+  font-size: 14px;
+}
+header .title .info p.second {
+  font-size: 18px;
+  color: #c82127;
+}
+header .banner {
+	position:relative;
+	height:200px;
+	width:100%;
+	margin-top:5px
+}
+header nav {
+	width:600px;
+	height:96px;
+	margin:15px auto 0;
+	color:#fff
+}
+header nav ul {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap
+}
+header nav ul li {
+	height:30px;
+  width:105px;
+	margin-bottom:20px;
+	background:#383838;
+  line-height:30px;
+ 
+}
+header nav ul li h2 {
+  padding:0;
+  color:#fff;
+}
+header .advantage {
+	width:550px;
+	height:180px;
+	margin:15px auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap
+}
+header .advantage li {
+	margin:5px 0;
+	position:relative;
+	width:250px;
+	height:85px
+}
+header .advantage li a>h2 {
+	padding:0;
+	float:left
+}
+header .advantage li a>strong {
+	font-size:14px;
+  position:absolute;
+  text-align:left;
+	right:5px;
+	top:16px;
+	display:inline-block;
+	width:155px;
+	font-weight:bold
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+  background: #fff;
+}
